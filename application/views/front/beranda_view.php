@@ -69,7 +69,7 @@
 		
     </div>
 	
-     <span>Powered By Artist Management System | Copyright &copy; 2011- <script type="text/javascript"> 
+                   <span>Powered By Artist Management System | BSMsite.com &copy; 2013- <script type="text/javascript"> 
 //<![CDATA[
             var d = new Date()
             document.write(d.getFullYear())
