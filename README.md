@@ -12,4 +12,5 @@ versi: 0.0.012
 > skype: ayesduana<br />
 > ym : bsmsitecom<br />
 
-Create with CodeIgniter
+Feature:<br />
+> Artist Booking System Coordination Event (Clients and Account Management)
