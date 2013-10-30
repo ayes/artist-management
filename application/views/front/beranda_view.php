@@ -69,7 +69,7 @@
 		
     </div>
 	
-     <span>Powered By Artist Management V0.1 | Copyright &copy; 2011- <script type="text/javascript"> 
+     <span>Powered By Artist Management System | Copyright &copy; 2011- <script type="text/javascript"> 
 //<![CDATA[
             var d = new Date()
             document.write(d.getFullYear())
