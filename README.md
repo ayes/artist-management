@@ -3,4 +3,4 @@ artist-management
 
 Artist Management
 
-versi: 0.01
+versi: 0.05
