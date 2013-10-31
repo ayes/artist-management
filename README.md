@@ -20,7 +20,7 @@ Server Requipment:<br />
 > PHP 5.5.3
 
 Thanks To:<br />
-> NetBeans IDE https://netbeans.org/
+> NetBeans IDE https://netbeans.org<br />
 > CodeIgniter http://ellislab.com/codeigniter<br />
 > Bootstrap http://getbootstrap.com/<br />
 > SB Admin http://startbootstrap.com/<br />
