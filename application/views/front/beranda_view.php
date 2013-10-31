@@ -49,11 +49,11 @@
     </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div class="jumbotron hidden-phone">
       <div class="container">
         <h1>Katharina Ratu Dewi</h1>      
         <p>To hire Katharina Ratu Dewi or to get pricing, fees and availability on Katharina Ratu Dewi to perform at your corporate event, gala, fundraising event, private performance, party, fundraiser, public concert, wedding, college, exhibition or festival worldwide. Fill out and submit the simple entertainment request form, and a booking agent for Katharina Ratu Dewi will get back to you in under 24 hours to discuss the artists pricing, fees and availability.</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a> <a class="btn btn-primary btn-lg" role="button">Sign up today &raquo;</a></p>
+        <a class="btn btn-primary btn-lg" role="button">Book Now &raquo;</a></p>
       </div>
     </div>
 

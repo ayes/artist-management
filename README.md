@@ -18,3 +18,10 @@ Server Requipment:<br />
 > Apache 2.4.4<br />
 > MySQL 5.6.11<br />
 > PHP 5.5.3
+
+Thanks To:<br />
+> NetBeans IDE https://netbeans.org/
+> CodeIgniter http://ellislab.com/codeigniter<br />
+> Bootstrap http://getbootstrap.com/<br />
+> SB Admin http://startbootstrap.com/<br />
+> IconsPedia http://www.iconspedia.com/
