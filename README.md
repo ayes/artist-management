@@ -14,6 +14,9 @@ Created by Irfan Mahfudz Guntur on 30-10-2013.
 Feature:<br />
 > Artist Booking System Coordination Event (Clients and Account Management)
 
+Live Demo:
+> http://artist-management.bsmsite.com/
+
 Server Requipment:<br />
 > Apache 2.4.4<br />
 > MySQL 5.6.11<br />
