@@ -21,7 +21,8 @@
   </head>
 
   <body>
-
+      
+      
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -33,15 +34,16 @@
           <a class="navbar-brand" href="#">Artist Management System</a>
         </div>
         <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
+              <?php echo form_open('app-panel/proses', array('class' => 'navbar-form navbar-right')); ?>
             <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
+              <input name="email" type="text" placeholder="Email" autofocus="autofocus" class="form-control">
             </div>
             <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
+              <input name="password" type="password" placeholder="Password" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
+           
+            <?php echo form_submit('submit', 'Sign in', 'class="btn btn-success"'); ?>
+          <?php echo form_close(); ?>
         </div><!--/.navbar-collapse -->
       </div>
     </div>
@@ -50,6 +52,9 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Hello, world!</h1>
+         <?php if(isset($error))echo $error; ?>
+          <?php echo form_error('email');?>
+<?php echo form_error('password');?>rtert
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
       </div>
