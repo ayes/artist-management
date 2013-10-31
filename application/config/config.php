@@ -14,7 +14,10 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://booking.bsmsite.com/';
+// $config['base_url']	= 'http://artist-management.bsmsite.com/';
+$root = "http://".$_SERVER['HTTP_HOST'];
+$root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
+$config['base_url']    = $root;
 
 /*
 |--------------------------------------------------------------------------
@@ -224,7 +227,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'sadfyui3457KJHGJHB457834kdfsd';
 
 /*
 |--------------------------------------------------------------------------
