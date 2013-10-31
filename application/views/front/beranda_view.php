@@ -53,7 +53,7 @@
       <div class="container">
         <h1>Katharina Ratu Dewi</h1>      
         <p>To hire Katharina Ratu Dewi or to get pricing, fees and availability on Katharina Ratu Dewi to perform at your corporate event, gala, fundraising event, private performance, party, fundraiser, public concert, wedding, college, exhibition or festival worldwide. Fill out and submit the simple entertainment request form, and a booking agent for Katharina Ratu Dewi will get back to you in under 24 hours to discuss the artists pricing, fees and availability.</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a> <a class="btn btn-primary btn-lg" role="button">Sign up today &raquo;</a></p>
       </div>
     </div>
 
@@ -61,17 +61,20 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>Heading</h2>
+          <h2>Picture</h2>
+           <img class="img-responsive" src="<?php echo base_url(); ?>source/images/img1.jpg" alt="Generic placeholder image">
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
+          <h2>Video</h2>
+          <img class="img-responsive" src="<?php echo base_url(); ?>source/images/img2.jpg" alt="Generic placeholder image">
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
+          <h2>Song List</h2>
+          <img class="img-responsive" src="<?php echo base_url(); ?>source/images/img3.jpg" alt="Generic placeholder image">
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
