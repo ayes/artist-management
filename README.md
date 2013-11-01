@@ -23,8 +23,9 @@ Server Requipment:<br />
 > PHP 5.5.3
 
 Thanks To:<br />
+> Ratu Dewi Kartika http://ratudewi.com
 > NetBeans IDE https://netbeans.org<br />
-> CodeIgniter http://ellislab.com/codeigniter<br />
-> Bootstrap http://getbootstrap.com/<br />
+> CodeIgniter 2.1.4 http://ellislab.com/codeigniter<br />
+> Bootstrap 3.0.1 http://getbootstrap.com/<br />
 > SB Admin http://startbootstrap.com/<br />
 > IconsPedia http://www.iconspedia.com/

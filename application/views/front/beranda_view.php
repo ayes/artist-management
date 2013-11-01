@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Artist Management System">
-    <meta name="author" content="Irfan Mahfudz Guntur">
+    <meta name="author" content="Irfan Mahfudz Guntur - ayes@bsmsite.com">
     <?php echo link_tag(base_url().'template/default/icon/favicon.ico', 'shortcut icon', 'image/x-icon'); ?>
 
     <title>Artist Management System</title>
@@ -49,7 +49,7 @@
     </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron hidden-phone">
+    <div class="jumbotron">
       <div class="container">
         <h1>Katharina Ratu Dewi</h1>      
         <p>To hire Katharina Ratu Dewi or to get pricing, fees and availability on Katharina Ratu Dewi to perform at your corporate event, gala, fundraising event, private performance, party, fundraiser, public concert, wedding, college, exhibition or festival worldwide. Fill out and submit the simple entertainment request form, and a booking agent for Katharina Ratu Dewi will get back to you in under 24 hours to discuss the artists pricing, fees and availability.</p>
@@ -60,27 +60,59 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-xs-6 col-sm-4">
           <h2>Picture</h2>
+          <div class="thumbnail">
            <img class="img-responsive" src="<?php echo base_url(); ?>source/images/img1.jpg" alt="Generic placeholder image">
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
+         </div>
+          <p><a class="btn btn-default btn-lg btn-block" href="#" role="button">View details &raquo;</a></p>
+        
+          </div>
+        <div class="col-xs-6 col-sm-4">
           <h2>Video</h2>
+          <div class="thumbnail">
           <img class="img-responsive" src="<?php echo base_url(); ?>source/images/img2.jpg" alt="Generic placeholder image">
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Song List</h2>
-          <img class="img-responsive" src="<?php echo base_url(); ?>source/images/img3.jpg" alt="Generic placeholder image">
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
+          </div>
+          <p><a class="btn btn-default btn-lg btn-block" href="#" role="button">View details &raquo;</a></p>
+       
       </div>
-
-      <hr>
+         
+        <div class="col-xs-6 col-sm-4">
+          <h2>Song List</h2>
+          <div class="thumbnail">
+           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img3.jpg" alt="Generic placeholder image">
+         </div>
+          <p><a class="btn btn-default btn-lg btn-block" href="#" role="button">View details &raquo;</a></p>       
+            
+          </div>
+          <div class="col-xs-6 col-sm-4">
+          <h2>Profile</h2>
+          <div class="thumbnail">
+           <img class="img-responsive" src="<?php echo base_url(); ?>source/images/img3.jpg" alt="Generic placeholder image">
+          </div>
+          <p><a class="btn btn-default btn-lg btn-block" href="#" role="button">View details &raquo;</a></p>
+        
+          </div>
+        <div class="col-xs-6 col-sm-4">
+          <h2>Biography</h2>
+          <div class="thumbnail">
+          <img class="img-responsive" src="<?php echo base_url(); ?>source/images/img2.jpg" alt="Generic placeholder image">
+          </div>
+          <p><a class="btn btn-default btn-lg btn-block" href="#" role="button">View details &raquo;</a></p>
+       
+      </div>
+         
+        <div class="col-xs-6 col-sm-4">
+          <h2>Story</h2>
+          <div class="thumbnail">
+           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img1.jpg" alt="Generic placeholder image">
+          </div>
+          <p><a class="btn btn-default btn-lg btn-block" href="#" role="button">View details &raquo;</a></p>       
+            
+          </div>
+          </div>
+        
+      <hr />
 
       <footer>
           <p>Powered by Artist Management System &copy; <a href="http://bsmsite.com/">BaseSystem Management</a> 2013</p>

@@ -343,12 +343,14 @@ img {
 }
 
 .img-responsive {
-  display: block;
-  height: auto;
+   display: block;
+        height: auto;
   max-width: 100%;
 }
 
 .img-rounded {
+    display: block;
+     margin: 0 auto;
   border-radius: 6px;
 }
 
