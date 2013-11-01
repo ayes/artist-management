@@ -23,7 +23,7 @@ Server Requipment:<br />
 > PHP 5.5.3
 
 Thanks To:<br />
-> Ratu Dewi Kartika http://ratudewi.com
+> Ratu Dewi Kartika http://ratudewi.com<br />
 > NetBeans IDE https://netbeans.org<br />
 > CodeIgniter 2.1.4 http://ellislab.com/codeigniter<br />
 > Bootstrap 3.0.1 http://getbootstrap.com/<br />
