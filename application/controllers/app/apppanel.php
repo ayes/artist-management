@@ -55,7 +55,7 @@ class Apppanel extends CI_Controller {
 				$data = array('email' => $email, 'username' => $username, 'name' => $name, 'userid' => $userid, 'login' => TRUE, 'status' => $status, 'panel' => 'ADMC');				
 				$this->session->set_userdata($data);
 				//$this->site_model->changeSessionId();
-				redirect('app/dashboard');
+				redirect($this->session->userdata('landing_page'));
 			}
 			else
 			{

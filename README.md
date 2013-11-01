@@ -11,6 +11,9 @@ Created by Irfan Mahfudz Guntur on 30-10-2013.
 > skype: ayesduana<br />
 > ym : bsmsitecom
 
+This software is licensed under the CC-GNU GPL version 3.<br />
+http://www.gnu.org/licenses/gpl.html
+
 Feature:<br />
 > Artist Booking System Coordination Event (Clients and Account Management)
 
@@ -24,6 +27,7 @@ Server Requipment:<br />
 
 Thanks To:<br />
 > Ratu Dewi Kartika http://ratudewi.com<br />
+> GitHub https://github.com
 > NetBeans IDE https://netbeans.org<br />
 > CodeIgniter 2.1.4 http://ellislab.com/codeigniter<br />
 > Bootstrap 3.0.1 http://getbootstrap.com/<br />

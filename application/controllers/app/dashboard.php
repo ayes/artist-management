@@ -1,25 +1,8 @@
 <?php
-
-
-
-/*
-
- * To change this template, choose Tools | Templates
-
- * and open the template in the editor.
-
- */
-
-
-
 /**
-
- * Description of dashboard
-
+ * Description of adminpanel
  *
-
- * @author ayes
-
+ * @author Irfan Mahfudz Guntur - ayes@bsmsite.com
  */
 
 class Dashboard extends CI_Controller {
