@@ -15,7 +15,7 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
   <ul class="nav navbar-nav navbar">
-    <li><a href="#"><span class="glyphicon glyphicon-time"></span> Booking</a></li>   
+    <li><a href="/app/booking"><span class="glyphicon glyphicon-time"></span> Booking</a></li>   
       </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-star"></span> Alert <span class="badge">7</span></a></li>

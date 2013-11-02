@@ -9,7 +9,7 @@ Created by Irfan Mahfudz Guntur on 30-10-2013.
 > email: ayes@bsmsite.com<br />
 > gtalk: ayes@bsmsite.com<br />
 > skype: ayesduana<br />
-> ym : bsmsitecom
+> ym : bsmsitecom<br />
 > twitter: @exor14
 
 This software is licensed under the CC-GNU GPL version 3.<br />
@@ -19,7 +19,7 @@ Feature:<br />
 > Artist Booking System Coordination Event (Clients and Account Management)
 
 Live Demo:
-> http://artist-management.bsmsite.com/
+> <a href="http://artist-management.bsmsite.com/">LIVE-DEMO</a>
 
 Server Requipment:<br />
 > Apache 2.4.4<br />
