@@ -677,6 +677,7 @@ Public License instead of this License.  But first, please read
  */
 ?>
 <footer>
+    <hr />
           <p>Powered by <a href="https://github.com/ayes/artist-management/blob/master/README.md">Artist Management System</a> &copy; 2013. All Rights Reserved.<br />
               This software is licensed under the CC-GNU GPL version 3.<br />
 <img class="img-responsive" alt="CC-GNU GPL" border="0" src="http://www.gnu.org/graphics/gplv3-127x51.png" />

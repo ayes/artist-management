@@ -53,7 +53,7 @@
       <div class="container">
         <h1>Katharina Ratu Dewi</h1>      
         <p>To hire Katharina Ratu Dewi or to get pricing, fees and availability on Katharina Ratu Dewi to perform at your corporate event, gala, fundraising event, private performance, party, fundraiser, public concert, wedding, college, exhibition or festival worldwide. Fill out and submit the simple entertainment request form, and Artist Management System will get back to you to discuss the artists pricing, fees and availability.</p>
-        <a href="/booking" class="btn btn-primary btn-lg" role="button">Book Now &raquo;</a></p>
+        <a href="/app/booking/add" class="btn btn-primary btn-lg" role="button">Book Now &raquo;</a></p>
       </div>
     </div>
 
@@ -111,9 +111,6 @@
             
           </div>
           </div>
-        
-      <hr />
-
       <?php $this->load->view('inc/footer'); ?>
     </div> <!-- /container -->
 

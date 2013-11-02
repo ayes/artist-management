@@ -48,7 +48,7 @@
 Please fill out the form below and Artist Management System will contact you.
 </p>
       </div>
-<form role="form">
+<?php echo form_open('booking/add', array('role' => 'form')); ?>    
   <div class="form-group">
     <label for="event_date">Event Date</label>
     <input name="event_date" type="text" class="form-control" id="event_date" placeholder="Event date">
