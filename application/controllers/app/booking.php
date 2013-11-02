@@ -14,6 +14,7 @@ class Booking extends CI_Controller {
         function __construct() {
             parent::__construct();
             $this->user_logged_in();
+            $this->load->model('app/booking_model');
         }
         function user_logged_in() {
             $this->session->unset_userdata('landing_page');

@@ -68,7 +68,7 @@ class Apppanel extends CI_Controller {
     function logout()
 	{
 		$this->session->sess_destroy();
-		$this->index();
+		redirect('/');
 	}
 }
 ?>

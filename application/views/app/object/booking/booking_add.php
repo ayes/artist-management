@@ -15,26 +15,26 @@ Please fill out the form below and Artist Management System will contact you.
         </div><!-- /.row -->
 <div class="row">
           <div class="col-lg-6">
-<?php echo form_open('booking/add', array('role' => 'form')); ?>    
+<?php echo form_open('app/booking/save', array('role' => 'form')); ?>    
   <div class="form-group">
     <label for="event_date">Event Date</label>
-    <input name="event_date" type="text" class="form-control" id="event_date" placeholder="Event date">
+    <input name="event_date" type="text" class="form-control" id="event_date" placeholder="Event date" required="required">
   </div>
   <div class="form-group">
     <label for="event_location">Event Location</label>
-    <input name="event_location" type="text" class="form-control" id="event_location" placeholder="Event location">
+    <input name="event_location" type="text" class="form-control" id="event_location" placeholder="Event location" required="required">
   </div>
    <div class="form-group">
     <label for="event_type">Event Type</label>
-    <input name="event_type" type="text" class="form-control" id="event_type" placeholder="Event type">
+    <input name="event_type" type="text" class="form-control" id="event_type" placeholder="Event type" required="required">
   </div>
    <div class="form-group">
     <label for="approximate_budget">Approximate Budget</label>
-    <input name="approximate_budget" type="text" class="form-control" id="approximate_budget" placeholder="Approximate budget">
+    <input name="approximate_budget" type="text" class="form-control" id="approximate_budget" placeholder="Approximate budget" required="required">
   </div> 
     <div class="form-group">
     <label for="event_comments">Event Comments</label>
-    <textarea name="approximate_budget" class="form-control" rows="5"></textarea>
+    <textarea name="approximate_budget" class="form-control" rows="5" required="required"></textarea>
   </div> 
   
   <button type="submit" class="btn btn-primary">Submit</button>

@@ -24,7 +24,7 @@
               <ul class="dropdown-menu">
                 <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
                 <li class="divider"></li>
-                <li><a href="app-panel/logout"><span class="glyphicon glyphicon-off"></span> Log Out</a></li>
+                <li><a href="/app-panel/logout"><span class="glyphicon glyphicon-off"></span> Log Out</a></li>
               </ul>
             </li>
     </ul>
