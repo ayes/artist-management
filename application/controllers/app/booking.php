@@ -27,6 +27,7 @@ class Booking extends CI_Controller {
 	public function index()
 	{
                 $data['content'] = 'app/object/booking/booking_view';
+                $data['getBooking'] = $this->booking_model->getBooking();
 		$this->load->view('app/template_view', $data);
 	}
         function add() {

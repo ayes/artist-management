@@ -14,9 +14,9 @@ class Booking_model extends CI_Model {
     function __construct() {
         parent::__construct();
     }
-    function getApbd() {
-        $this->db->order_by('kode', 'asc');
-        return $this->db->get('tbevaluasi_anggaran_apbd');
+    function getBooking() {
+        $this->db->order_by('id', 'asc');
+        return $this->db->get('tbbook');
     }
     function getApbdCari() {
         $tahun = $this->input->post('tahun');

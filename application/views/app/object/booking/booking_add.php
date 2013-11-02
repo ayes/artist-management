@@ -34,7 +34,7 @@ Please fill out the form below and Artist Management System will contact you.
   </div> 
     <div class="form-group">
     <label for="event_comments">Event Comments</label>
-    <textarea name="approximate_budget" class="form-control" rows="5" required="required"></textarea>
+    <textarea name="event_comments" class="form-control" rows="5" required="required"></textarea>
   </div> 
   
   <button type="submit" class="btn btn-primary">Submit</button>

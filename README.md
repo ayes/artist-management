@@ -3,7 +3,9 @@ artist-management
 
 Artist Management System
 
-Created by Irfan Mahfudz Guntur on 30-10-2013.
+Created by Irfan Mahfudz Guntur<br />
+from: <a href="http://bsmsite.com">BaseSystem Management</a><br />
+on: 30-10-2013.
 
 > website: http://bsmsite.com<br />
 > email: ayes@bsmsite.com<br />
