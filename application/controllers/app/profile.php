@@ -10,11 +10,11 @@
  * @author Irfan Mahfudz Guntur - ayes@bsmsite.com
  */
 
-class Booking extends CI_Controller {
+class Profile extends CI_Controller {
         function __construct() {
             parent::__construct();
             $this->user_logged_in();
-            $this->load->model('app/booking_model');
+            $this->load->model('app/profile_model');
         }
         function user_logged_in() {
             $this->session->unset_userdata('landing_page');
@@ -26,20 +26,19 @@ class Booking extends CI_Controller {
         }
 	public function index()
 	{
-                $data['content'] = 'app/object/booking/booking_view';
-                $data['getBooking'] = $this->booking_model->getBooking();
+                $data['content'] = 'app/object/profile/profile_view';
+                $data['getProfile'] = $this->profile_model->getProfile();
 		$this->load->view('app/template_view', $data);
 	}
         function add() {
         $data['content'] = 'app/object/booking/booking_add';
         $this->load->view('app/template_view', $data);
     }
-        function save() {
-            $this->booking_model->save();
-            $this->session->set_flashdata('message', '<strong>Well done!</strong> You successfully booking please wait for respond!');
-            redirect('app/booking');
+        function update() {
+            $this->profile_model->update();
+            $this->session->set_flashdata('message', '<strong>Well done!</strong> You successfully update profile!');
+            redirect('app/profile');
         }
-        
 }
 
 /* End of file welcome.php */

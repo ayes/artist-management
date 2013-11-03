@@ -18,9 +18,7 @@
     <th>Event Location</th>
     <th>Event Type</th>
     <th>Approximate Budget</th>
-    <th>Detail</th>
-    <th>Ganti</th>
-    <th>Hapus</th>
+ 
 </tr>                   
 <?php $no = $this->uri->segment(3); ?>
 <?php foreach($getBooking->result() as $row) : ?>                               
@@ -29,10 +27,13 @@
 <td><?php echo $row->event_location; ?></td>
 <td><?php echo $row->event_type; ?></td>
 <td><?php echo $row->approximate_budget; ?></td>
+<?php /*
 <td><?php echo anchor('app/evaluasi_anggaran_apbd/edit/'.$row->id, 'VIEW', array('title'=>'Edit')); ?></td>
 <td><?php echo anchor('app/evaluasi_anggaran_apbd/edit/'.$row->id, 'EDIT', array('title'=>'Edit')); ?></td>
 <td><?php echo anchor('app/evaluasi_anggaran_apbd/delete/'.$row->id, 'DELETE', array('title'=>'Hapus', 'onClick'=>"return confirm('Anda yakin ingin menghapus?')")); ?></td>
-                                </tr>                                
+*/ ?>
+</tr>                                
+ 
 <?php endforeach; ?>				
 			</table>
 

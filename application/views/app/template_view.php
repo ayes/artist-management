@@ -22,7 +22,7 @@
       <li class="dropdown user-dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <?php echo $this->session->userdata('name'); ?> <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                <li><a href="/app/profile"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
                 <li class="divider"></li>
                 <li><a href="/app-panel/logout"><span class="glyphicon glyphicon-off"></span> Log Out</a></li>
               </ul>
