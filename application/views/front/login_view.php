@@ -41,6 +41,15 @@
     </div>
 
     <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+        <?php $flashmessage = $this->session->flashdata('message'); ?>
+    <?php echo ! empty($flashmessage) ? 
+    '<div class="alert alert-dismissable alert-success">'
+    . '<button type="button" class="close" data-dismiss="alert">&times;</button>'
+    .$flashmessage
+    .'</div>' : ''; ?>          
+          </div></div>
 <?php echo form_open('app-panel/proses', array('class' => 'form-signin')); ?>
         <h2 class="form-signin-heading">Please sign in</h2>
         <input name="email" type="text" class="form-control" placeholder="Email address" required autofocus>
@@ -49,7 +58,10 @@
           <input type="checkbox" value="remember-me"> Remember me
         </label>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
+    <a href="/register" class="btn btn-lg btn-info btn-block">Sign up</a>  
+    <a href="/register" class="btn btn-lg btn-warning btn-block">Forget Password</a>  
+    </form>
+
       <?php $this->load->view('inc/footer'); ?>       
     </div><!-- /.container -->
 

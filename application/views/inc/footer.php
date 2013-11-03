@@ -682,6 +682,6 @@ Public License instead of this License.  But first, please read
               0.03.0 &copy; 2013. All Rights Reserved.<br />
               This software is licensed under the CC-GNU GPL version 3.<br />
 <a href="http://www.gnu.org/copyleft/gpl.html">
-    <img class="img-responsive" alt="CC-GNU GPL" border="0" src="http://www.gnu.org/graphics/gplv3-127x51.png" /></a>
+    <img class="img-responsive" alt="CC-GNU GPL" border="0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
           </p>
       </footer>

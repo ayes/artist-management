@@ -43,36 +43,29 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>Entertainment Request Form</h1>
-        <p class="lead">This confidential form was created so Artist Management System can get a clear understanding of your specific needs, demographics, budgets, etc. so they can better assist you.
-Please fill out the form below and Artist Management System will contact you.
+        <h1>Register Form</h1>
+        <p class="lead">-
 </p>
       </div>
-<?php echo form_open('booking/add', array('role' => 'form')); ?>    
-  <div class="form-group">
-    <label for="event_date">Event Date</label>
-    <input name="event_date" type="text" class="form-control" id="event_date" placeholder="Event date">
+<?php echo form_open('register/save', array('role' => 'form')); ?>    
+      <div class="form-group">
+    <label for="email">Email</label>
+    <input name="email" type="email" class="form-control" id="email" placeholder="Email" required="required">
   </div>
   <div class="form-group">
-    <label for="event_location">Event Location</label>
-    <input name="event_location" type="text" class="form-control" id="event_location" placeholder="Event location">
+    <label for="password">Password</label>
+    <input name="password" type="password" class="form-control" id="password" placeholder="Password" required="required">
   </div>
    <div class="form-group">
-    <label for="event_type">Event Type</label>
-    <input name="event_type" type="text" class="form-control" id="event_type" placeholder="Event type">
+    <label for="name">Name</label>
+    <input name="name" type="text" class="form-control" id="name" placeholder="Name" required="required">
   </div>
    <div class="form-group">
-    <label for="approximate_budget">Approximate Budget</label>
-    <input name="approximate_budget" type="text" class="form-control" id="approximate_budget" placeholder="Approximate budget">
-  </div> 
-    <div class="form-group">
-    <label for="event_comments">Event Comments</label>
-    <textarea name="approximate_budget" class="form-control" rows="5"></textarea>
-  </div> 
-  
+    <label for="mobile_phone">Mobile Phone</label>
+    <input name="mobile_phone" type="text" class="form-control" id="mobile_phone" placeholder="Mobile phone" required="required">
+  </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
- <hr />
 
       <?php $this->load->view('inc/footer'); ?>      
     </div><!-- /.container -->

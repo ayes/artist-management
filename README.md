@@ -18,7 +18,8 @@ This software is licensed under the CC-GNU GPL version 3.<br />
 http://www.gnu.org/licenses/gpl.html
 
 Feature:<br />
-> Artist Booking System Coordination Event (Clients and Account Management)
+> Artist Booking System Coordination Event (Clients and Account Management)<br />
+> Page Profile, Biography, Story, Picture, Video, Song List
 
 Live Demo:
 > <a href="http://artist-management.bsmsite.com/">LIVE-DEMO</a>

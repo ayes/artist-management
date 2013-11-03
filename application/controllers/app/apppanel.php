@@ -55,12 +55,12 @@ class Apppanel extends CI_Controller {
 				$data = array('email' => $email, 'username' => $username, 'name' => $name, 'userid' => $userid, 'login' => TRUE, 'status' => $status, 'panel' => 'ADMC');				
 				$this->session->set_userdata($data);
 				//$this->site_model->changeSessionId();
-				redirect($this->session->userdata('landing_page'));
+				redirect('app/booking/add');
 			}
 			else
 			{
 				$data['error'] = '<span class=error>Username atau password salah !</span>';
-                                $this->load->view('front/template_view', $data);
+                                $this->load->view('front/login_view', $data);
 			}
 		}
                 }

@@ -33,9 +33,13 @@
           </button>
           <a class="navbar-brand" href="/">Artist Management System</a>
         </div>
-        <div class="navbar-collapse collapse">
-              <?php echo form_open('app-panel/proses', array('class' => 'navbar-form navbar-right')); ?>
-            <div class="form-group">
+          <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    
+      
+   <?php echo form_open('app-panel/proses', array('class' => 'navbar-form navbar-right')); ?>
+            
+      <div class="form-group">
               <input name="email" type="text" placeholder="Email" autofocus="autofocus" class="form-control">
             </div>
             <div class="form-group">
@@ -43,10 +47,15 @@
             </div>
            
             <?php echo form_submit('submit', 'Sign in', 'class="btn btn-success"'); ?>
-          <?php echo form_close(); ?>
+          <a href="/register" class="btn btn-info">Sign up</a>
+        <a href="/register" class="btn btn-warning">Forget Password</a>
+                <?php echo form_close(); ?>
+      
         </div><!--/.navbar-collapse -->
+        
       </div>
     </div>
+    
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">

@@ -17,8 +17,6 @@ class Booking extends CI_Controller {
             $this->load->model('app/booking_model');
         }
         function user_logged_in() {
-            $this->session->unset_userdata('landing_page');
-            $this->session->set_userdata('landing_page', 'app/booking/add');
             if (($this->session->userdata('login') != TRUE) || ($this->session->userdata('panel') != 'ADMC'))
 		{
 			redirect('login');
