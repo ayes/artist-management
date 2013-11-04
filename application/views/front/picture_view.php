@@ -67,11 +67,13 @@
       </div>
     </div>
 
-    
-      <div id="wrapper">
-	<div id="columns">
+     <div class="container">
+     
+	
+            <div class="row">
+                <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/img1.jpg" />
+			<img src="/source/img/img1.jpg" class="img-responsive">
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 				Sed feugiat consectetur pellentesque. Nam ac elit risus, 
@@ -79,42 +81,47 @@
 				Duis rutrum porta tortor ut convallis.
 			</p>
 		</div>
-	
+                    </div>
+                <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/atukusemua.jpg" />
+			<img src="/source/img/atukusemua.jpg" class="img-responsive">
 			<p>
 				Donec a fermentum nisi. 
 			</p>
 		</div>
-	
+                    </div>
+                <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/img1.jpg" />
+			<img src="/source/img/img1.jpg" class="img-responsive">
 			<p>
 				Nullam eget lectus augue. Donec eu sem sit amet ligula 
 				faucibus suscipit. Suspendisse rutrum turpis quis nunc 
 				convallis quis aliquam mauris suscipit.
 			</p>
 		</div>
-	
+                    </div>
+                <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/img1.jpg" />
+			<img src="/source/img/img1.jpg" class="img-responsive">
 			<p>
 				Nullam eget lectus augue. Donec eu sem sit amet ligula 
 				faucibus suscipit. Suspendisse rutrum turpis quis nunc 
 				convallis quis aliquam mauris suscipit.
 			</p>
 		</div>
-	
+                    </div>
+                 <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/atukusemua.jpg" />
+			<img src="/source/img/atukusemua.jpg" class="img-responsive">
 			<p>
 				Donec a fermentum nisi. Integer dolor est, commodo ut 
 				sagittis vitae, egestas at augue. 
 			</p>
 		</div>
-	
+                    </div>
+            <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/img1.jpg" />
+			<img src="/source/img/img1.jpg" class="img-responsive">
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 				Sed feugiat consectetur pellentesque. Nam ac elit risus, 
@@ -122,9 +129,10 @@
 				Duis rutrum porta tortor ut convallis.
 			</p>
 		</div>	
-		
+		</div>
+            <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/img1.jpg" />
+			<img src="/source/img/img1.jpg" class="img-responsive">
 			<p>
 				Nullam eget lectus augue. Donec eu sem sit amet ligula 
 				faucibus suscipit. Suspendisse rutrum turpis quis nunc 
@@ -132,69 +140,77 @@
 				Duis rutrum porta tortor ut convallis.
 			</p>
 		</div>
-	
+                </div>
+            <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/atukusemua.jpg" />
+			<img src="/source/img/atukusemua.jpg" class="img-responsive">
 			<p>
 				Nullam eget lectus augue. 
 			</p>
 		</div>
-	
+                </div>
+            <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/img1.jpg" />
+			<img src="/source/img/img1.jpg" class="img-responsive">
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 				Sed feugiat consectetur pellentesque. 
 			</p>
 		</div>
-	
+                </div>
+            <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/img1.jpg" />
+			<img src="/source/img/img1.jpg" class="img-responsive">
 			<p>
 				Donec a fermentum nisi. Integer dolor est, commodo ut 
 				sagittis vitae, egestas at augue. Suspendisse id nulla 
 				ac urna vestibulum mattis. Duis rutrum porta tortor ut convallis.
 			</p>
 		</div>
-	
+                </div>
+            <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/atukusemua.jpg" />
+			<img src="/source/img/atukusemua.jpg" class="img-responsive">
 			<p>
 				Donec a fermentum nisi. Integer dolor est, commodo ut 
 				sagittis vitae, egestas at augue. Suspendisse id nulla 
 				ac urna vestibulum mattis. 
 			</p>
 		</div>
-	
+                </div>
+            <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/img1.jpg" />
+			<img src="/source/img/img1.jpg" class="img-responsive">
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 				Sed feugiat consectetur pellentesque. Nam ac elit risus, 
 				ac blandit dui. Duis rutrum porta tortor ut convallis.
 			</p>
 		</div>	
-		
+		</div>
+                <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/img1.jpg" />
+			<img src="/source/img/img1.jpg" class="img-responsive">
 			<p>
 				Donec a fermentum nisi. Integer dolor est, commodo ut 
 				sagittis vitae, egestas at augue. Suspendisse id nulla 
 				ac urna vestibulum mattis. 
 			</p>
 		</div>
-	
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/atukusemua.jpg" />
+			<img src="/source/img/atukusemua.jpg" class="img-responsive">
 			<p>
 				Donec a fermentum nisi. Integer dolor est, commodo ut 
 				sagittis vitae, egestas at augue. Suspendisse id nulla 
 				ac urna vestibulum mattis. 
 			</p>
 		</div>
-	
+                        </div>
+            <div class="col-xs-6 col-sm-3">
 		<div class="pin">
-			<img src="/source/img/img1.jpg" />
+			<img src="/source/img/img1.jpg" class="img-responsive">
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 				Sed feugiat consectetur pellentesque. Nam ac elit risus, 
@@ -202,8 +218,9 @@
 			</p>
 		</div>
 	</div>
-</div>
-    <div class="container">
+     
+
+            </div>
       <?php $this->load->view('inc/footer'); ?>
    
   </div>
