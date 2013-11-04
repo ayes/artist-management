@@ -59,7 +59,7 @@
         </label>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     <a href="/register" class="btn btn-lg btn-info btn-block">Sign up</a>  
-    <a href="/register" class="btn btn-lg btn-warning btn-block">Forget Password</a>  
+    <a href="/register" class="btn btn-lg btn-warning btn-block">Forgot Password</a>  
     </form>
 
       <?php $this->load->view('inc/footer'); ?>       

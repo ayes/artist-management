@@ -37,3 +37,5 @@ Thanks To:<br />
 > <a href="http://ellislab.com/codeigniter">CodeIgniter 2.1.4</a><br />
 > <a href="http://getbootstrap.com/">Bootstrap 3.0.1</a><br />
 > <a href="http://www.iconspedia.com/">IconsPedia</a><br />
+> <a href="http://cssdeck.com/labs/css-only-pinterest-style-columns-layout">CSS-Only Pinterest Style</a><br />
+

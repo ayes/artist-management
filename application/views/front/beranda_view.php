@@ -48,7 +48,7 @@
            
             <?php echo form_submit('submit', 'Sign in', 'class="btn btn-success"'); ?>
           <a href="/register" class="btn btn-info">Sign up</a>
-        <a href="/register" class="btn btn-warning">Forget Password</a>
+        <a href="/register" class="btn btn-warning">Forgot Password</a>
                 <?php echo form_close(); ?>
       
         </div><!--/.navbar-collapse -->
@@ -74,7 +74,7 @@
           <div class="thumbnail">
            <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img1.jpg" alt="Generic placeholder image">
          </div>
-          <p><a class="btn btn-default btn-lg btn-block" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default btn-lg btn-block" href="/picture" role="button">View details &raquo;</a></p>
         
           </div>
         <div class="col-xs-6 col-sm-4">
