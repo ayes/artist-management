@@ -16,7 +16,8 @@
 
     <!-- Custom styles for this template -->
     <link href="<?php echo base_url(); ?>template/default/css/jumbotron.css" rel="stylesheet">
-
+    <link href="<?php echo base_url(); ?>template/default/css/video.css" rel="stylesheet">
+    
    
   </head>
 
@@ -66,69 +67,87 @@
       </div>
     </div>
 
-    <div class="container">
-        
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-xs-6 col-sm-4">
-          <h2>Picture</h2>
-          <div class="thumbnail">
-           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img1.jpg" alt="Generic placeholder image">
-         </div>
-          <p><a class="btn btn-default btn-lg btn-block" href="/picture" role="button">View details &raquo;</a></p>
-        
-          </div>
-        <div class="col-xs-6 col-sm-4">
-          <h2>Video</h2>
-          <div class="thumbnail">
-          <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img2.jpg">
-          </div>
-          <p><a class="btn btn-default btn-lg btn-block" href="/video" role="button">View details &raquo;</a></p>
-       
-      </div>
+     <div class="container">
          
-        <div class="col-xs-6 col-sm-4">
-          <h2>Song List</h2>
-          <div class="thumbnail">
-           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img3.jpg" alt="Generic placeholder image">
-         </div>
-          <p><a class="btn btn-default btn-lg btn-block" href="/song" role="button">View details &raquo;</a></p>       
-            
-          </div>
-          <div class="col-xs-6 col-sm-4">
-          <h2>Profile</h2>
-          <div class="thumbnail">
-           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img3.jpg" alt="Generic placeholder image">
-          </div>
-          <p><a class="btn btn-default btn-lg btn-block" href="/profile" role="button">View details &raquo;</a></p>
-        
-          </div>
-        <div class="col-xs-6 col-sm-4">
-          <h2>Biography</h2>
-          <div class="thumbnail">
-          <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img2.jpg" alt="Generic placeholder image">
-          </div>
-          <p><a class="btn btn-default btn-lg btn-block" href="#" role="button">View details &raquo;</a></p>
-       
-      </div>
+         <h1>Profile<small>  Page</small></h1>
+ <ol class="breadcrumb">
+              <li><a href="/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+              <li class="active"><span class="glyphicon glyphicon-user"></span> Profile</li>
+            </ol>
          
+	<div class="row">
         <div class="col-xs-6 col-sm-4">
-          <h2>Story</h2>
-          <div class="thumbnail">
-           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img1.jpg" alt="Generic placeholder image">
-          </div>
-          <p><a class="btn btn-default btn-lg btn-block" href="#" role="button">View details &raquo;</a></p>       
-            
-          </div>
-          </div>
-      <?php $this->load->view('inc/footer'); ?>
-    </div> <!-- /container -->
 
+        <img class="img-rounded" src="/source/img/atu1.jpg" width="100%">
+
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-8">
+
+        <h1>Katharina <small>Ratu Dewi</small></h1>
+        <hr />
+        <div class="lead"><span class="label label-default">Singer</span> <span class="label label-default">Host</span> <span class="label label-default">Advertising Model</span> <span class="label label-default">Artist</span></div>
+        </div>
+        </div>
+  
+         <hr />
+         <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Professional Profile</h3>
+  </div>
+  <div class="panel-body">
+    RATU yang mempunyai nama asli Ratu Dewi Kartika kelahiran Bogor, 7 Juli 1988 ini memulai karir sejak duduk di bangku sekolah.
+  </div>
+</div>
+
+ <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Work Experience</h3>
+  </div>
+  <div class="panel-body">
+Ratu mengeluarkan 3 album dan 2 single  yaitu :<br />
+<ol>
+    <li>Album bertajuk ”Duh Sakit” tahun 2003 (dangdut).</li>
+    <li>Mini Album bertajuk “Ingat Selalu” tahun  2006 (dangdut).</li>
+    <li>Mini Album “Lelaki Hanyalah Mainan” tahun 2009 (Pop).</li> 
+    <li>Single berjudul “Maafkan Aku” tahun 2011 (Pop).</li>
+    <li>Single Duo “Anytime Beib” tahun</li> 
+</ol>
+RATU yang pernah tergabung menjadi personil “Duo D’Cute” selain nyanyi RATU juga sangat multitalenta sudah membintangi iklan Raja Gula, sinetron RCTI,  dan  membintangi 3 judul FTV :<br />
+<ol>
+    <li>Bukan Siti Nurbaya, FTV Global TV</li>
+    <li>Rumah Diatas Bukit, Bioskop Trans TV</li>
+    <li>Cinta Dalam Ketoprakmu, FTV RCTI.</li>
+</ol>
+selain itu ratu juga pernah menjadi Host di acara “Sang Penemu” Metro TV dan beberapa acara lainnya
+  </div>
+</div>        
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Project</h3>
+  </div>
+  <div class="panel-body">
+    RATU saat ini tengah merelease single yang berjudul "Pacar Gelap Bang Toyib" dengan genre dangdut house music koplo.
+  </div>
+</div>         
+         
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Personal</h3>
+  </div>
+  <div class="panel-body">
+    RATU yang memiliki tinggi badan 165 cm dan berat badan 48 Kg dengan warna favoritnya yaitu Pink juga mempunyai beberapa hobby diantaranya yaitu: menyanyi, akting dan dance. Optimisme tinggi menjadi dasar bagi RATU untuk berjuang di blantika musik tanah air
+  </div>
+</div>
+      <?php $this->load->view('inc/footer'); ?>
+   
+  </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="<?php echo base_url(); ?>template/default/js/bootstrap.min.js"></script>
+    
   </body>
 </html>

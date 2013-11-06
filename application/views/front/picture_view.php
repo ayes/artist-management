@@ -68,159 +68,108 @@
     </div>
 
      <div class="container">
+         
+     <h1>Picture<small>  Gallery</small></h1>
+ <ol class="breadcrumb">
+              <li><a href="/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+              <li class="active"><span class="glyphicon glyphicon-picture"></span> Picture</li>
+            </ol>
      
+	<div id="columns">
+           
+                
+		<div class="pin">
+			<img src="/source/img/img1.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>
+                    
+               
+		<div class="pin">
+			<img src="/source/img/atukusemua.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>
+                    
+                
+		<div class="pin">
+			<img src="/source/img/img1.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>
+                    
+                
+		<div class="pin">
+			<img src="/source/img/img1.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>
+                   
+                 
+		<div class="pin">
+			<img src="/source/img/atukusemua.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>
+                    
+           
+		<div class="pin">
+			<img src="/source/img/img1.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>	
+		
+           
+		<div class="pin">
+			<img src="/source/img/img1.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>
+                
+            
+		<div class="pin">
+			<img src="/source/img/atukusemua.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>
+                
+           
+		<div class="pin">
+			<img src="/source/img/img1.jpg" class="img-responsive">
+                        <p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>
+              
+            
+		<div class="pin">
+			<img src="/source/img/img1.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>
+               
+            
+		<div class="pin">
+			<img src="/source/img/atukusemua.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>
+               
+           
+		<div class="pin">
+			<img src="/source/img/img1.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>	
+		
+               
+		<div class="pin">
+			<img src="/source/img/img1.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>
+                   
+                    
+		<div class="pin">
+			<img src="/source/img/atukusemua.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>
+                       
+            
+		<div class="pin">
+			<img src="/source/img/img1.jpg" class="img-responsive">
+			<p><span class="glyphicon glyphicon-comment"></span> <span class="badge">7</span> <span class="glyphicon glyphicon-heart"></span> <span class="badge">7</span></p>
+		</div>
 	
-            <div class="row">
-                <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/img1.jpg" class="img-responsive">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				Sed feugiat consectetur pellentesque. Nam ac elit risus, 
-				ac blandit dui. Duis rutrum porta tortor ut convallis.
-				Duis rutrum porta tortor ut convallis.
-			</p>
-		</div>
-                    </div>
-                <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/atukusemua.jpg" class="img-responsive">
-			<p>
-				Donec a fermentum nisi. 
-			</p>
-		</div>
-                    </div>
-                <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/img1.jpg" class="img-responsive">
-			<p>
-				Nullam eget lectus augue. Donec eu sem sit amet ligula 
-				faucibus suscipit. Suspendisse rutrum turpis quis nunc 
-				convallis quis aliquam mauris suscipit.
-			</p>
-		</div>
-                    </div>
-                <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/img1.jpg" class="img-responsive">
-			<p>
-				Nullam eget lectus augue. Donec eu sem sit amet ligula 
-				faucibus suscipit. Suspendisse rutrum turpis quis nunc 
-				convallis quis aliquam mauris suscipit.
-			</p>
-		</div>
-                    </div>
-                 <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/atukusemua.jpg" class="img-responsive">
-			<p>
-				Donec a fermentum nisi. Integer dolor est, commodo ut 
-				sagittis vitae, egestas at augue. 
-			</p>
-		</div>
-                    </div>
-            <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/img1.jpg" class="img-responsive">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				Sed feugiat consectetur pellentesque. Nam ac elit risus, 
-				ac blandit dui. Duis rutrum porta tortor ut convallis.
-				Duis rutrum porta tortor ut convallis.
-			</p>
-		</div>	
-		</div>
-            <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/img1.jpg" class="img-responsive">
-			<p>
-				Nullam eget lectus augue. Donec eu sem sit amet ligula 
-				faucibus suscipit. Suspendisse rutrum turpis quis nunc 
-				convallis quis aliquam mauris suscipit.
-				Duis rutrum porta tortor ut convallis.
-			</p>
-		</div>
-                </div>
-            <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/atukusemua.jpg" class="img-responsive">
-			<p>
-				Nullam eget lectus augue. 
-			</p>
-		</div>
-                </div>
-            <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/img1.jpg" class="img-responsive">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				Sed feugiat consectetur pellentesque. 
-			</p>
-		</div>
-                </div>
-            <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/img1.jpg" class="img-responsive">
-			<p>
-				Donec a fermentum nisi. Integer dolor est, commodo ut 
-				sagittis vitae, egestas at augue. Suspendisse id nulla 
-				ac urna vestibulum mattis. Duis rutrum porta tortor ut convallis.
-			</p>
-		</div>
-                </div>
-            <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/atukusemua.jpg" class="img-responsive">
-			<p>
-				Donec a fermentum nisi. Integer dolor est, commodo ut 
-				sagittis vitae, egestas at augue. Suspendisse id nulla 
-				ac urna vestibulum mattis. 
-			</p>
-		</div>
-                </div>
-            <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/img1.jpg" class="img-responsive">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				Sed feugiat consectetur pellentesque. Nam ac elit risus, 
-				ac blandit dui. Duis rutrum porta tortor ut convallis.
-			</p>
-		</div>	
-		</div>
-                <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/img1.jpg" class="img-responsive">
-			<p>
-				Donec a fermentum nisi. Integer dolor est, commodo ut 
-				sagittis vitae, egestas at augue. Suspendisse id nulla 
-				ac urna vestibulum mattis. 
-			</p>
-		</div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/atukusemua.jpg" class="img-responsive">
-			<p>
-				Donec a fermentum nisi. Integer dolor est, commodo ut 
-				sagittis vitae, egestas at augue. Suspendisse id nulla 
-				ac urna vestibulum mattis. 
-			</p>
-		</div>
-                        </div>
-            <div class="col-xs-6 col-sm-3">
-		<div class="pin">
-			<img src="/source/img/img1.jpg" class="img-responsive">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				Sed feugiat consectetur pellentesque. Nam ac elit risus, 
-				ac blandit dui. Duis rutrum porta tortor ut convallis.
-			</p>
-		</div>
-	</div>
      
-
-            </div>
+         </div>
+         
       <?php $this->load->view('inc/footer'); ?>
    
   </div>

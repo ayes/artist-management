@@ -16,7 +16,8 @@
 
     <!-- Custom styles for this template -->
     <link href="<?php echo base_url(); ?>template/default/css/jumbotron.css" rel="stylesheet">
-
+    <link href="<?php echo base_url(); ?>template/default/css/video.css" rel="stylesheet">
+    
    
   </head>
 
@@ -66,69 +67,63 @@
       </div>
     </div>
 
-    <div class="container">
-        
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-xs-6 col-sm-4">
-          <h2>Picture</h2>
-          <div class="thumbnail">
-           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img1.jpg" alt="Generic placeholder image">
-         </div>
-          <p><a class="btn btn-default btn-lg btn-block" href="/picture" role="button">View details &raquo;</a></p>
-        
-          </div>
-        <div class="col-xs-6 col-sm-4">
-          <h2>Video</h2>
-          <div class="thumbnail">
-          <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img2.jpg">
-          </div>
-          <p><a class="btn btn-default btn-lg btn-block" href="/video" role="button">View details &raquo;</a></p>
-       
-      </div>
+     <div class="container">
          
-        <div class="col-xs-6 col-sm-4">
-          <h2>Song List</h2>
-          <div class="thumbnail">
-           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img3.jpg" alt="Generic placeholder image">
-         </div>
-          <p><a class="btn btn-default btn-lg btn-block" href="/song" role="button">View details &raquo;</a></p>       
-            
-          </div>
-          <div class="col-xs-6 col-sm-4">
-          <h2>Profile</h2>
-          <div class="thumbnail">
-           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img3.jpg" alt="Generic placeholder image">
-          </div>
-          <p><a class="btn btn-default btn-lg btn-block" href="/profile" role="button">View details &raquo;</a></p>
-        
-          </div>
-        <div class="col-xs-6 col-sm-4">
-          <h2>Biography</h2>
-          <div class="thumbnail">
-          <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img2.jpg" alt="Generic placeholder image">
-          </div>
-          <p><a class="btn btn-default btn-lg btn-block" href="#" role="button">View details &raquo;</a></p>
-       
-      </div>
+         <h1>Song<small>  List</small></h1>
+ <ol class="breadcrumb">
+              <li><a href="/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+              <li class="active"><span class="glyphicon glyphicon-music"></span> Song List</li>
+            </ol>
          
-        <div class="col-xs-6 col-sm-4">
-          <h2>Story</h2>
-          <div class="thumbnail">
-           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img1.jpg" alt="Generic placeholder image">
-          </div>
-          <p><a class="btn btn-default btn-lg btn-block" href="#" role="button">View details &raquo;</a></p>       
-            
-          </div>
-          </div>
+         <ul class="list-group">
+  <li class="list-group-item">
+    <div class="well well-sm">Pacar Gelap Bang Toyib</div>
+    <div class="text-right">
+        
+        <button type="button" class="btn btn-default btn-sm">
+  <span class="glyphicon glyphicon-play"></span> Play
+</button>
+                <button type="button" class="btn btn-default btn-sm">
+  <span class="glyphicon glyphicon-download-alt"></span> Download <span class="badge">7</span>
+</button>
+    </div>
+  </li>
+  <li class="list-group-item">
+    <div class="well well-sm">Maafkan Aku</div>
+    <div class="text-right">
+        
+        <button type="button" class="btn btn-default btn-sm">
+  <span class="glyphicon glyphicon-play"></span> Play
+</button>
+                <button type="button" class="btn btn-default btn-sm">
+  <span class="glyphicon glyphicon-download-alt"></span> Download <span class="badge">7</span>
+</button>
+    </div>
+  </li>
+  <li class="list-group-item">
+    <div class="well well-sm">Kalimah Sakti</div>
+    <div class="text-right">
+        
+        <button type="button" class="btn btn-default btn-sm">
+  <span class="glyphicon glyphicon-play"></span> Play
+</button>
+                <button type="button" class="btn btn-default btn-sm">
+  <span class="glyphicon glyphicon-download-alt"></span> Download <span class="badge">7</span>
+</button>
+    </div>
+  </li>
+</ul>
+         
+         
       <?php $this->load->view('inc/footer'); ?>
-    </div> <!-- /container -->
-
+   
+  </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="<?php echo base_url(); ?>template/default/js/bootstrap.min.js"></script>
+    
   </body>
 </html>

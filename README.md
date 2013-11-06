@@ -12,10 +12,10 @@ on: 30-10-2013.
 > gtalk: ayes@bsmsite.com<br />
 > skype: ayesduana<br />
 > ym : bsmsitecom<br />
+> xmpp : ayes@codingteam.net<br />
 > twitter: @exor14
 
-This software is licensed under the CC-GNU GPL version 3.<br />
-http://www.gnu.org/licenses/gpl.html
+This software is licensed under the <a href="http://www.gnu.org/licenses/gpl.html">GNU GPL version 3</a>.<br />
 
 Feature:<br />
 > Artist Booking System Coordination Event (Clients and Account Management)<br />
