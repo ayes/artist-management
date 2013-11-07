@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04 Nov 13, 14:27:41
+    Author     : Irfan Mahfudz Guntur - ayes@bsmsite.com
+*/
+
+
+
+.pin {
+	display: inline-block;
+	background: #FEFEFE;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	padding: 15px;
+	padding-bottom: 5px;
+	background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+	opacity: 1;
+	
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+        
+        
+}
+
+.pin img {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+.pin p {
+	color: #333;
+	margin: 0;
+}
+/*
+@media (min-width: 960px) {
+	#columns {
+		-webkit-column-count: 4;
+		-moz-column-count: 4;
+		column-count: 4;
+	}
+}
+
+@media (min-width: 1100px) {
+	#columns {
+		-webkit-column-count: 5;
+		-moz-column-count: 5;
+		column-count: 5;
+	}
+}
+*/
+@media (min-width: 60px) { 
+        #columns {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+    }
+@media (min-width: 450px) { 
+        #columns {
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
+	}
+    }
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 750px) { 
+        #columns {
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
+	}
+    }
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 970px) { 
+    #columns {
+		-webkit-column-count: 4;
+		-moz-column-count: 4;
+		column-count: 4;
+	} }
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1170px) { 
+#columns {
+		-webkit-column-count: 5;
+		-moz-column-count: 5;
+		column-count: 5;
+	}
+}
+
+/*
+#columns:hover .pin:not(:hover) {
+	opacity: 0.4;
+}
+*/

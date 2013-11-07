@@ -77,7 +77,7 @@
          
          <ul class="list-group">
   <li class="list-group-item">
-    <div class="well well-sm">Pacar Gelap Bang Toyib</div>
+    <div class="well well-sm"><span class="glyphicon glyphicon-music"></span> Pacar Gelap Bang Toyib</div>
     <div class="text-right">
         
         <button type="button" class="btn btn-default btn-sm">
@@ -89,7 +89,7 @@
     </div>
   </li>
   <li class="list-group-item">
-    <div class="well well-sm">Maafkan Aku</div>
+    <div class="well well-sm"><span class="glyphicon glyphicon-music"></span> Maafkan Aku</div>
     <div class="text-right">
         
         <button type="button" class="btn btn-default btn-sm">
@@ -101,7 +101,7 @@
     </div>
   </li>
   <li class="list-group-item">
-    <div class="well well-sm">Kalimah Sakti</div>
+    <div class="well well-sm"><span class="glyphicon glyphicon-music"></span> Kalimah Sakti</div>
     <div class="text-right">
         
         <button type="button" class="btn btn-default btn-sm">

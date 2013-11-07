@@ -5,7 +5,7 @@
  */
 /**
  * Description of adminpanel
- *
+ * ARTIST MANAGEMENT SYSTEM
  * @author Irfan Mahfudz Guntur - ayes@bsmsite.com
  */
 

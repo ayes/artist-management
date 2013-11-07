@@ -85,7 +85,7 @@
 
         <h1>Katharina <small>Ratu Dewi</small></h1>
         <hr />
-        <div class="lead"><span class="label label-default">Singer</span> <span class="label label-default">Host</span> <span class="label label-default">Advertising Model</span> <span class="label label-default">Artist</span></div>
+        <div class="lead"><span class="label label-default">Singer</span> <span class="label label-default">Host</span> <span class="label label-default">Advertising Model</span> <span class="label label-default">Actress</span></div>
         </div>
         </div>
   
