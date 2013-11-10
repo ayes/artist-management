@@ -35,6 +35,6 @@ Thanks To:<br />
 > <a href="https://github.com/">GitHub</a><br />
 > <a href="https://netbeans.org/">NetBeans IDE</a><br />
 > <a href="http://ellislab.com/codeigniter">CodeIgniter 2.1.4</a><br />
-> <a href="http://getbootstrap.com/">Bootstrap 3.0.1</a><br />
+> <a href="http://getbootstrap.com/">Bootstrap 3.0.2</a><br />
 > <a href="http://www.iconspedia.com/">IconsPedia</a><br />
 
