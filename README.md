@@ -21,9 +21,6 @@ Feature:<br />
 > Artist Booking System Coordination Event (Clients and Account Management)<br />
 > Page Profile, Biography, Story, Picture, Video, Song List
 
-Live Demo:
-> <a href="http://artist-management.bsmsite.com/">LIVE-DEMO</a>
-
 Server Requipment:<br />
 > Apache 2.4.4<br />
 > MySQL 5.6.11<br />
