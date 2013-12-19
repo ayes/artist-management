@@ -16,8 +16,9 @@ class Login extends CI_Controller {
         }
 	public function index()
 	{
-            
-		$this->load->view('front/login_view');
+        $data['css1'] = "<link href='http://tools.bsmsite.com/template/global/css/signin1.css' rel='stylesheet'>";
+        $data['css2'] = "";
+		$this->load->view('front/login_view', $data);
 	}
 }
 
