@@ -12,10 +12,10 @@
     <title>Artist Management System</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="<?php echo base_url(); ?>template/default/css/bootstrap.css" rel="stylesheet">
+    <link href="http://tools.bsmsite.com/template/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="<?php echo base_url(); ?>template/default/css/jumbotron.css" rel="stylesheet">
+    <link href="http://tools.bsmsite.com/template/global/css/jumbotron.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>template/default/css/beranda.css" rel="stylesheet">
    
   </head>
@@ -39,16 +39,16 @@
       
    <?php echo form_open('app-panel/proses', array('class' => 'navbar-form navbar-right')); ?>
             
-      <div class="form-group">
-              <input name="email" type="text" placeholder="Email" autofocus="autofocus" class="form-control">
-            </div>
-            <div class="form-group">
-              <input name="password" type="password" placeholder="Password" class="form-control">
-            </div>
+        <div class="form-group">
+            <input name="email" type="text" placeholder="Email" autofocus="autofocus" class="form-control">
+        </div>&nbsp;
+        <div class="form-group">
+            <input name="password" type="password" placeholder="Password" class="form-control">
+        </div>&nbsp;
            
             <?php echo form_submit('submit', 'Sign in', 'class="btn btn-success"'); ?>
-          <a href="/register" class="btn btn-info">Sign up</a>
-        <a href="/register" class="btn btn-warning">Forgot Password</a>
+
+       
                 <?php echo form_close(); ?>
       
         </div><!--/.navbar-collapse -->
@@ -70,7 +70,7 @@
          
            <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img1.jpg">
          
-          <p><a class="btn btn-default btn-lg btn-block btn-sm" href="/picture" role="button"><span class="glyphicon glyphicon-picture"></span> Picture</a></p>
+          <p><a class="btn btn-default btn-lg btn-block btn-lg" href="/picture" role="button"><span class="glyphicon glyphicon-picture"></span> Picture</a></p>
         </div>
           </div>
         <div class="col-xs-6 col-sm-4">
@@ -79,7 +79,7 @@
           
           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img2.jpg">
           
-          <p><a class="btn btn-default btn-lg btn-block btn-sm" href="/video" role="button"><span class="glyphicon glyphicon-film"></span> Video</a></p>
+          <p><a class="btn btn-default btn-lg btn-block btn-lg" href="/video" role="button"><span class="glyphicon glyphicon-film"></span> Video</a></p>
        </div>
       </div>
          
@@ -89,7 +89,7 @@
          
            <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img3.jpg" alt="Generic placeholder image">
          
-          <p><a class="btn btn-default btn-lg btn-block btn-sm" href="/song" role="button"><span class="glyphicon glyphicon-music"></span> Song List</a></p>       
+          <p><a class="btn btn-default btn-lg btn-block btn-lg" href="/song" role="button"><span class="glyphicon glyphicon-music"></span> Song List</a></p>       
             </div>
           </div>
           <div class="col-xs-6 col-sm-4">
@@ -98,7 +98,7 @@
           
            <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img3.jpg">
           
-          <p><a class="btn btn-default btn-lg btn-block btn-sm" href="/profile" role="button"><span class="glyphicon glyphicon-user"></span> Profile</a></p>
+          <p><a class="btn btn-default btn-lg btn-block btn-lg" href="/profile" role="button"><span class="glyphicon glyphicon-user"></span> Profile</a></p>
         </div>
           </div>
         <div class="col-xs-6 col-sm-4">
@@ -107,7 +107,7 @@
          
           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img2.jpg">
          
-          <p><a class="btn btn-default btn-lg btn-block btn-sm" href="/biography" role="button"><span class="glyphicon glyphicon-book"></span> Biography</a></p>
+          <p><a class="btn btn-default btn-lg btn-block btn-lg" href="/biography" role="button"><span class="glyphicon glyphicon-book"></span> Biography</a></p>
           </div>
       </div>
          
@@ -117,7 +117,7 @@
           
            <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img1.jpg">
           
-          <p><a class="btn btn-default btn-lg btn-block btn-sm" href="#" role="button"><span class="glyphicon glyphicon-road"></span> Story</a></p>       
+          <p><a class="btn btn-default btn-lg btn-block btn-lg" href="#" role="button"><span class="glyphicon glyphicon-road"></span> Story</a></p>       
             </div>
           </div>
           </div>
