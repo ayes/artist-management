@@ -77,8 +77,8 @@
             $title = $doc->getElementsByTagName("title")->item(0)->nodeValue;
             ?>
            <div class="pin">
-               <div title="<?= $title ?>" class="well well-sm">
-                   <small><?= character_limiter($title, 30) ?></small>
+               <div title="<?php echo $title ?>" class="well well-sm">
+                   <small><?php echo character_limiter($title, 30) ?></small>
            </div>
              <img class="img-rounded" src="http://img.youtube.com/vi/SNAEF0peyrw/0.jpg" width="100%">
            <p class="text-right">
@@ -98,8 +98,8 @@
             $title = $doc->getElementsByTagName("title")->item(0)->nodeValue;
             ?>
            <div class="pin">
-             <div title="<?= $title ?>" class="well well-sm">
-                   <small><?= character_limiter($title, 30) ?></small>
+             <div title="<?php echo $title ?>" class="well well-sm">
+                   <small><?php echo character_limiter($title, 30) ?></small>
            </div>
            <img class="img-rounded" src="http://img.youtube.com/vi/KM4qKQ0wsPQ/0.jpg" width="100%">
            <p class="text-right">
@@ -118,8 +118,8 @@
             $title = $doc->getElementsByTagName("title")->item(0)->nodeValue;
             ?>
            <div class="pin">
-             <div title="<?= $title ?>" class="well well-sm">
-                   <small><?= character_limiter($title, 30) ?></small>
+             <div title="<?php echo $title ?>" class="well well-sm">
+                   <small><?php echo character_limiter($title, 30) ?></small>
            </div>
            <img class="img-rounded" src="http://img.youtube.com/vi/Y6xhnrnFvsQ/0.jpg" width="100%">
            <p class="text-right">
@@ -137,8 +137,8 @@
             $title = $doc->getElementsByTagName("title")->item(0)->nodeValue;
             ?>
            <div class="pin">
-              <div title="<?= $title ?>" class="well well-sm">
-                   <small><?= character_limiter($title, 30) ?></small>
+              <div title="<?php echo $title ?>" class="well well-sm">
+                   <small><?php echo character_limiter($title, 30) ?></small>
            </div>
            <img class="img-rounded" src="http://img.youtube.com/vi/B86nF3MPOuI/0.jpg" width="100%">
            <p class="text-right">
@@ -156,8 +156,8 @@
             $title = $doc->getElementsByTagName("title")->item(0)->nodeValue;
             ?>
            <div class="pin">
-              <div title="<?= $title ?>" class="well well-sm">
-                   <small><?= character_limiter($title, 30) ?></small>
+              <div title="<?php echo $title ?>" class="well well-sm">
+                   <small><?php echo character_limiter($title, 30) ?></small>
            </div>
            <img class="img-rounded" src="http://img.youtube.com/vi/D5Z8hPiFLo8/0.jpg" width="100%">
            <p class="text-right">
@@ -176,8 +176,8 @@
             $title = $doc->getElementsByTagName("title")->item(0)->nodeValue;
             ?>
            <div class="pin">
-              <div title="<?= $title ?>" class="well well-sm">
-                   <small><?= character_limiter($title, 30) ?></small>
+              <div title="<?php echo $title ?>" class="well well-sm">
+                   <small><?php echo character_limiter($title, 30) ?></small>
            </div>
            <img class="img-rounded" src="http://img.youtube.com/vi/W1vJfYXkO5Q/0.jpg" width="100%">
            <p class="text-right">

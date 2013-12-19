@@ -7,16 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Artist Management System">
     <meta name="author" content="Irfan Mahfudz Guntur - ayes@bsmsite.com">
-    <?php echo link_tag(base_url().'template/default/icon/favicon.ico', 'shortcut icon', 'image/x-icon'); ?>
-
+    <?php echo link_tag('http://tools.bsmsite.com/template/artist_management/icon/favicon.ico', 'shortcut icon', 'image/x-icon'); ?>
     <title>Artist Management System</title>
-
     <!-- Bootstrap core CSS -->
     <link href="http://tools.bsmsite.com/template/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="http://tools.bsmsite.com/template/global/css/jumbotron.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>template/default/css/beranda.css" rel="stylesheet">
+    <link href="http://tools.bsmsite.com/template/artist_management/css/beranda.css" rel="stylesheet">
    
   </head>
 
@@ -96,7 +94,7 @@
               <div class="pin">
           
           
-           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img3.jpg">
+           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img4.jpg">
           
           <p><a class="btn btn-default btn-lg btn-block btn-lg" href="/profile" role="button"><span class="glyphicon glyphicon-user"></span> Profile</a></p>
         </div>
@@ -105,7 +103,7 @@
             <div class="pin">
           
          
-          <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img2.jpg">
+          <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img5.jpg">
          
           <p><a class="btn btn-default btn-lg btn-block btn-lg" href="/biography" role="button"><span class="glyphicon glyphicon-book"></span> Biography</a></p>
           </div>
@@ -115,20 +113,13 @@
             <div class="pin">
           
           
-           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img1.jpg">
+           <img class="img-rounded" src="<?php echo base_url(); ?>source/images/img6.jpg">
           
           <p><a class="btn btn-default btn-lg btn-block btn-lg" href="#" role="button"><span class="glyphicon glyphicon-road"></span> Story</a></p>       
             </div>
           </div>
           </div>
       <?php $this->load->view('inc/footer'); ?>
-    </div> <!-- /container -->
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="<?php echo base_url(); ?>template/default/js/bootstrap.min.js"></script>
   </body>
 </html>
