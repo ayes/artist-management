@@ -10,15 +10,15 @@
  *
  * @author BaseSystem Management http://bsmsite.com
  */
-class Products extends CI_Controller {
+class Booking extends CI_Controller {
     function __construct() {
         parent::__construct();
-        $this->load->model('admin/products_model');
+        $this->load->model('admin/booking_model');
     }
     function index() {
         $data['header'] = 'admin/includes/header';
-        $data['content'] = 'admin/object/products/products_view';
-        $data['getProducts'] = $this->products_model->getProducts();
+        $data['content'] = 'admin/object/booking/booking_view';
+        $data['get_booking'] = $this->booking_model->get_booking();
         $this->load->view('admin/template_view', $data);
     }
     function add() {

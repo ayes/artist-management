@@ -10,20 +10,20 @@
  *
  * @author BaseSystem Management http://bsmsite.com
  */
-class Products_model extends CI_Model {
+class Booking_model extends CI_Model {
     var $product_path;
     function __construct() {
         parent::__construct();
         $this->product_path = realpath(APPPATH . '../fx-archive/images_product');
     }
-    function getProducts() {
-        $config['base_url'] = site_url('admin/products/index');
-	$config['total_rows'] = $this->db->count_all('tbproduct_category');
-        $config['per_page'] = 15;
+    function get_booking() {
+        $config['base_url'] = site_url('admin/booking/index');
+	$config['total_rows'] = $this->db->count_all('tbbook');
+        $config['per_page'] = 100;
         $config['uri_segment'] = 4;
         $this->pagination->initialize($config);
-        $this->db->order_by('name', 'asc');
-        $query = $this->db->get('tbproducts',$config['per_page'],$this->uri->segment(4));
+        $this->db->order_by('event_date', 'asc');
+        $query = $this->db->get('tbbook',$config['per_page'],$this->uri->segment(4));
         return $query;
     }
     function getProductCategory() {

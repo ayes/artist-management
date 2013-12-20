@@ -34,12 +34,12 @@ class Booking_model extends CI_Model {
         $insert = $this->db->insert_id();
         $sub = 'Booking Notification - '.$insert;
         $msg = 'Booking Code - '.$insert.' - dont reply this email';
-       
         $this->email->from('notif@ratudewi.com', 'RatuDewi.com');
-$this->email->to('ratu@ratudewi.com');  
-$this->email->subject($sub);
-$this->email->message($msg);	
-$this->email->send();
+        $this->email->to('ratu@ratudewi.com');  
+        $this->email->subject($sub);
+        $this->email->message($msg);	
+        $this->email->send();
+
     }
 }
 

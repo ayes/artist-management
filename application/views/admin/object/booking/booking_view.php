@@ -49,29 +49,36 @@
 </div>
 <div class="col-lg-12">
 <table class="table table-striped">
-<tr>
-    <th>CODE</th>
-    <th>NAME</th>
-    <th>PRICE</th>
-    <th>PICTURE</th>
-    <th>EDIT</th>
-    <th>DELETE</th>
-</tr>                   
+    <thead>
+        <tr>
+            <th>NO.</th>
+            <th>TANGGAL EVENT</th>
+            <th>LOKASI EVENT</th>
+            <th>JENIS EVENT</th>
+            <th>ANGGARAN PERKIRAAN</th>
+            <th>KETERANGAN</th>
+            <th>STATUS</th>
+        </tr>     
+    </thead>    
 <?php $no = $this->uri->segment(3); ?>
-<?php foreach($getProducts->result() as $row) : ?>                               
-
-<td><?php echo $row->id; ?></td>
-<td><?php echo $row->name; ?></td>
-<td><?php echo number_format($row->price, 0, ',', '.'); ?></td>
-<td><?php echo anchor(base_url().'fx-archive/images_product/thumbs/'.$row->picture, 'LINK', array('target'=>'_blank')); ?></td>
-
-
-<td><?php echo anchor('admin/products/edit/'.$row->id, 'EDIT', array('title'=>'Edit')); ?></td>
-<td><?php echo anchor('admin/products/delete/'.$row->id.'/'.$row->picture, 'DELETE', array('title'=>'Hapus', 'onClick'=>"return confirm('Anda yakin ingin menghapus?')")); ?></td>
-
+    <tbody>
+<?php foreach($get_booking->result() as $row) : ?>                               
+<td><?php echo $no=$no+1; ?></td>
+<td><?php echo date("d-m-Y",strtotime($row->event_date)); ?></td>
+<td><?php echo $row->event_location; ?></td>
+<td><?php echo $row->event_type; ?></td>
+<td><?php echo $row->approximate_budget; ?></td>
+<td><?php echo $row->event_comments; ?></td>
+<td><?php echo $row->status; ?></td>
+<?php /*
+<td><?php echo anchor('app/evaluasi_anggaran_apbd/edit/'.$row->id, 'VIEW', array('title'=>'Edit')); ?></td>
+<td><?php echo anchor('app/evaluasi_anggaran_apbd/edit/'.$row->id, 'EDIT', array('title'=>'Edit')); ?></td>
+<td><?php echo anchor('app/evaluasi_anggaran_apbd/delete/'.$row->id, 'DELETE', array('title'=>'Hapus', 'onClick'=>"return confirm('Anda yakin ingin menghapus?')")); ?></td>
+*/ ?>
 </tr>                                
  
-<?php endforeach; ?>				
+<?php endforeach; ?>	
+</tbody>
 			</table>
 </div>
 </div>

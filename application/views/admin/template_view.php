@@ -18,10 +18,7 @@
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-time"></span> Master <b class="caret"></b></a>
             <ul class="dropdown-menu">
-                <li><a href="/admin/product_category"><span class="glyphicon glyphicon-time"></span> Category</a></li>  
-                <li><a href="/admin/products"><span class="glyphicon glyphicon-time"></span> Products</a></li>
-                <li><a href="/admin/banners"><span class="glyphicon glyphicon-time"></span> Banners</a></li>
-                <li><a href="/admin/how_order"><span class="glyphicon glyphicon-time"></span> How To Order</a></li>
+                <li><a href="/admin/booking"><span class="glyphicon glyphicon-time"></span> Booking</a></li>  
             </ul>
         </li>
     </ul>

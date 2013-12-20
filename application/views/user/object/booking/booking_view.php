@@ -12,17 +12,19 @@
 </div>
 <div class="col-lg-12">
 <table class="table table-striped">
-<tr>
-    <th>NO.</th>
-    <th>TANGGAL EVENT</th>
-    <th>LOKASI EVENT</th>
-    <th>JENIS EVENT</th>
-    <th>ANGGARAN PERKIRAAN</th>
-    <th>KETERANGAN</th>
-    <th>STATUS</th>
- 
-</tr>                   
+    <thead>
+        <tr>
+            <th>NO.</th>
+            <th>TANGGAL EVENT</th>
+            <th>LOKASI EVENT</th>
+            <th>JENIS EVENT</th>
+            <th>ANGGARAN PERKIRAAN</th>
+            <th>KETERANGAN</th>
+            <th>STATUS</th>
+        </tr>     
+    </thead>    
 <?php $no = $this->uri->segment(3); ?>
+    <tbody>
 <?php foreach($getBooking->result() as $row) : ?>                               
 <td><?php echo $no=$no+1; ?></td>
 <td><?php echo date("d-m-Y",strtotime($row->event_date)); ?></td>
@@ -38,7 +40,8 @@
 */ ?>
 </tr>                                
  
-<?php endforeach; ?>				
+<?php endforeach; ?>	
+</tbody>
 			</table>
 
 <div id="pagination" align="right">
