@@ -24,9 +24,9 @@
     </ul>
     <ul class="nav navbar-nav navbar">
         <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-time"></span> Widget <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-time"></span> Home Page <b class="caret"></b></a>
             <ul class="dropdown-menu">
-                <li><a href="/admin/ym_live_support"><span class="glyphicon glyphicon-time"></span> YM Live Support</a></li>
+                <li><a href="/admin/picture"><span class="glyphicon glyphicon-time"></span> Picture</a></li>
                 <li><a href="/admin/widget_contact"><span class="glyphicon glyphicon-time"></span> Contact</a></li>
             </ul>
         </li>

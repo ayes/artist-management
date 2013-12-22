@@ -14,5 +14,5 @@
     <link href="http://tools.bsmsite.com/template/fazashop/css/admin.css" rel="stylesheet">
   </head>
   <body>
-
+<?php date_default_timezone_set("Asia/Jakarta");?>
     

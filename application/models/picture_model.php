@@ -14,9 +14,9 @@ class Picture_model extends CI_Model {
     function __construct() {
         parent::__construct();
     }
-    function getBooking() {
-        $this->db->order_by('id', 'asc');
-        return $this->db->get('tbbook');
+    function get_picture() {
+        $this->db->order_by('id', 'desc');
+        return $this->db->get('tbpicture');
     }
     function getApbdCari() {
         $tahun = $this->input->post('tahun');

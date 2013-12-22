@@ -17,8 +17,10 @@ class Picture extends CI_Controller {
         }
 	public function index()
 	{
-            
-            $this->load->view('front/picture_view');
+            $data['css1'] = "<link href='http://tools.bsmsite.com/template/global/css/jumbotron.css' rel='stylesheet'>";
+        $data['css2'] = "<link href='http://tools.bsmsite.com/template/artist_management/css/picture.css' rel='stylesheet'>";
+            $data['get_picture'] = $this->picture_model->get_picture();
+        $this->load->view('front/picture_view', $data);
 	}
         
         function save() {

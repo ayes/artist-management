@@ -679,7 +679,7 @@ Public License instead of this License.  But first, please read
 <footer>
     <hr />
           <p>Powered by <a href="http://bsmsite.com/">Artist Management System</a> 
-              0.04.5 &copy; 2013 <a href="https://bsmsite.com/">BaseSystem Management</a>. All Rights Reserved.<br />
+              0.04.6 &copy; 2013 <a href="https://bsmsite.com/">BaseSystem Management</a>. All Rights Reserved.<br />
               This software is licensed under the GNU GPL version 3.<br />
 <?php // <a href="http://www.gnu.org/copyleft/gpl.html"><img class="img-responsive" alt="CC-GNU GPL" src="http://i.creativecommons.org/l/by/3.0/88x31.png"></a> ?>
           </p>
