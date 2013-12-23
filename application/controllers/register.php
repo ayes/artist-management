@@ -19,6 +19,9 @@ class Register extends CI_Controller {
 	{
             $data['css1'] = "<link href='http://tools.bsmsite.com/template/global/css/form_register.css' rel='stylesheet'>";
             $data['css2'] = "";
+            $data['css3'] = "";
+            $data['js1'] = "";
+            $data['js2'] = "";
             $this->load->view('front/register_view', $data);
 	}
         

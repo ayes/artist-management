@@ -13,5 +13,8 @@
     <!-- Custom styles for this template -->
     <?php echo $css1; ?>
     <?php echo $css2; ?>
+    <?php echo $css3; ?>
+    
+    
   </head>
   <body>

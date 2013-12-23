@@ -19,7 +19,10 @@ class Picture extends CI_Controller {
 	{
             $data['css1'] = "<link href='http://tools.bsmsite.com/template/global/css/jumbotron.css' rel='stylesheet'>";
         $data['css2'] = "<link href='http://tools.bsmsite.com/template/artist_management/css/picture.css' rel='stylesheet'>";
-            $data['get_picture'] = $this->picture_model->get_picture();
+        $data['css3'] = "<link href='http://tools.bsmsite.com/template/prettyphoto/css/prettyPhoto.css' rel='stylesheet'>";
+        $data['js1'] = "<script src='http://tools.bsmsite.com/template/prettyphoto/js/jquery.prettyPhoto.js'></script>";
+        $data['js2'] = "<script src='http://tools.bsmsite.com/template/prettyphoto/js/prettyphoto.init.js'></script>";
+        $data['get_picture'] = $this->picture_model->get_picture();
         $this->load->view('front/picture_view', $data);
 	}
         

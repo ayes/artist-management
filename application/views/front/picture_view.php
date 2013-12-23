@@ -14,8 +14,10 @@
                 
 		 <?php foreach ($get_picture->result() as $row) : ?>
                <div class="pin">
+                   <a href="<?php echo base_url().'fx-archive/images_picture/thumbs/'.$row->picture ;?>" rel="prettyPhoto[gallery2]" title="Ratu Dewi">
                    <img src="<?php echo base_url().'fx-archive/images_picture/thumbs/'.$row->picture ;?>" class="img-responsive">
-			<p class="text-right"><span class="glyphicon glyphicon-heart"></span></p>
+                   </a>
+                   <p class="text-right"><span class="glyphicon glyphicon-heart"></span></p>
 		</div>
            <?php endforeach; ?>
 	

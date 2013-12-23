@@ -9,7 +9,6 @@ on: 30-10-2013.
 
 > website: http://bsmsite.com<br />
 > email: ayes@bsmsite.com<br />
-> gtalk: ayes@bsmsite.com<br />
 > skype: ayesduana<br />
 > ym : bsmsitecom<br />
 > twitter: @exor14
@@ -33,4 +32,5 @@ Thanks To:<br />
 > <a href="http://ellislab.com/codeigniter">CodeIgniter 2.1.4</a><br />
 > <a href="http://getbootstrap.com/">Bootstrap 3.0.3</a><br />
 > <a href="http://www.iconspedia.com/">IconsPedia</a><br />
+> <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">Pretty Photo</a><br />
 
