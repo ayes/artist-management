@@ -10,42 +10,34 @@
  *
  * @author BaseSystem Management http://bsmsite.com
  */
-class Booking extends CI_Controller {
+class Video extends CI_Controller {
     function __construct() {
         parent::__construct();
-        $this->load->model('admin/booking_model');
+        $this->load->model('admin/video_model');
     }
     function index() {
-        $data['header'] = 'admin/includes/header';
-        $data['content'] = 'admin/object/booking/booking_view';
-        $data['get_booking'] = $this->booking_model->get_booking();
         $data['js1'] = "";
         $data['js2'] = "";
+        $data['content'] = 'admin/object/video/video_view';
+        $data['get_video'] = $this->video_model->get_video();
         $this->load->view('admin/template_view', $data);
     }
     function add() {
         $data['js1'] = "";
         $data['js2'] = "";
-        $data['header'] = 'admin/includes/header';
-        $data['content'] = 'admin/object/products/products_add';
-        $data['getProductCategory'] = $this->products_model->getProductCategory();
+        $data['content'] = 'admin/object/video/video_add';
         $this->load->view('admin/template_view', $data);
     }
     function save() {
-         
-          
-            $this->products_model->save();
-            $this->session->set_flashdata('message', 'Product has been added..');
-            redirect('admin/products');
- 
+            $this->video_model->save();
+            $this->session->set_flashdata('message', 'Video has been added..');
+            redirect('admin/video');
     }
     function edit() {
         $data['js1'] = "";
         $data['js2'] = "";
-        $data['getEdit'] = $this->products_model->editId();
-        $data['getProductCategory'] = $this->products_model->getProductCategory();
-        $data['header'] = 'admin/includes/header';
-        $data['content'] = 'admin/object/products/products_edit';
+        $data['getEdit'] = $this->video_model->editId();
+        $data['content'] = 'admin/object/video/video_edit';
         $this->load->view('admin/template_view', $data);
     }
     function editFormId() {
@@ -67,22 +59,17 @@ class Booking extends CI_Controller {
     }
     function update() {
          
-            $this->products_model->update();
-            $this->session->set_flashdata('message', 'Product has been update..');
-            redirect('admin/products');
+            $this->video_model->update();
+            $this->session->set_flashdata('message', 'Video has been update..');
+            redirect('admin/video');
 
     }
     function delete() {
-            $this->products_model->delete();
-            $this->session->set_flashdata('message', 'Product has been delete..');
-            redirect('admin/products');
+            $this->video_model->delete();
+            $this->session->set_flashdata('message', 'Video has been delete..');
+            redirect('admin/video');
     }
-    function search() {
-        $data['header'] = 'admin/includes/header';
-        $data['content'] = 'admin/object/products/products_view';
-        $data['getProducts'] = $this->products_model->getSearchProduct();
-        $this->load->view('admin/template_view', $data);
-    }
+
 }
 
 ?>

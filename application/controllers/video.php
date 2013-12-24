@@ -17,15 +17,16 @@ class Video extends CI_Controller {
         }
 	public function index()
 	{
-            
-            $this->load->view('front/video_view');
+            $data['css1'] = "<link href='http://tools.bsmsite.com/template/global/css/jumbotron.css' rel='stylesheet'>";
+        $data['css2'] = "<link href='http://tools.bsmsite.com/template/artist_management/css/video.css' rel='stylesheet'>";
+        $data['css3'] = "<link href='http://tools.bsmsite.com/template/prettyphoto/css/prettyPhoto.css' rel='stylesheet'>";
+        $data['js1'] = "<script src='http://tools.bsmsite.com/template/prettyphoto/js/jquery.prettyPhoto.js'></script>";
+        $data['js2'] = "<script src='http://tools.bsmsite.com/template/prettyphoto/js/prettyphoto.init.js'></script>"; 
+        $data['get_video'] = $this->video_model->get_video();
+        $this->load->view('front/video_view', $data);
 	}
         
-        function save() {
-            $this->register_model->save();
-            $this->session->set_flashdata('message', '<strong>Well done!</strong> successfully register, you can sign in now!');
-            redirect('login');
-        }
+       
 }
 
 /* End of file welcome.php */

@@ -22,7 +22,9 @@ class Adminpanel extends CI_Controller {
 		}
 		else
 		{
-			 $this->load->view('admin/login_view');
+        $data['js1'] = "";
+        $data['js2'] = "";
+			 $this->load->view('admin/login_view', $data);
 		}
        
     }

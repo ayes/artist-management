@@ -16,23 +16,26 @@ class Picture extends CI_Controller {
         $this->load->model('admin/picture_model');
     }
     function index() {
+        $data['js1'] = "";
+        $data['js2'] = "";
         $data['content'] = 'admin/object/picture/picture_view';
         $data['get_picture'] = $this->picture_model->get_picture();
         $this->load->view('admin/template_view', $data);
     }
     function add() {
+        $data['js1'] = "";
+        $data['js2'] = "";
         $data['content'] = 'admin/object/picture/picture_add';
         $this->load->view('admin/template_view', $data);
     }
     function save() {
-         
-          
             $this->picture_model->save();
             $this->session->set_flashdata('message', 'Picture has been added..');
             redirect('admin/picture');
- 
     }
     function edit() {
+        $data['js1'] = "";
+        $data['js2'] = "";
         $data['getEdit'] = $this->picture_model->editId();
         $data['content'] = 'admin/object/picture/picture_edit';
         $this->load->view('admin/template_view', $data);
