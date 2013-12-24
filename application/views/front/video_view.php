@@ -25,9 +25,9 @@
                     </div>
                     <img class="img-rounded" src="http://img.youtube.com/vi/<?php echo $row->youtube_id; ?>/0.jpg" width="100%">
                     <p class="text-right">
-                        <button type="button" class="btn btn-default btn-sm">
+                        <a href="http://www.youtube.com/watch?v=<?php echo $row->youtube_id; ?>?rel=0" rel="prettyPhoto" title="<?php echo $title; ?>" type="button" class="btn btn-default btn-sm">
                             <span class="glyphicon glyphicon-play"></span> Play
-                        </button>
+                        </a>
                     </p> 
                 </div>
             </div>
@@ -35,14 +35,4 @@
           </div>
          
       <?php $this->load->view('inc/footer'); ?>
-   
-  </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="<?php echo base_url(); ?>template/default/js/bootstrap.min.js"></script>
-    
-  </body>
-</html>

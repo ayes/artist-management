@@ -26,10 +26,14 @@ class Booking extends CI_Controller {
 	{
                 $data['content'] = 'user/object/booking/booking_view';
                 $data['getBooking'] = $this->booking_model->getBooking();
+                $data['js1'] = "";
+                $data['js2'] = "";
 		$this->load->view('user/template_view', $data);
 	}
         function add() {
         $data['content'] = 'user/object/booking/booking_add';
+        $data['js1'] = "";
+        $data['js2'] = "";
         $this->load->view('user/template_view', $data);
     }
         function save() {

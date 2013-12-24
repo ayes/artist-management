@@ -3,7 +3,7 @@
 
 <h1>Entertainment<small>  Booking Request Form</small></h1>
  <ol class="breadcrumb">
-              <li><a href="/app/dashboard"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
+              <li><a href="/user/dashboard"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
               <li class="active"><span class="glyphicon glyphicon-edit"></span> Booking Request</li>
             </ol>
 

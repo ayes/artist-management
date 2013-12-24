@@ -20,7 +20,8 @@ class Dashboard extends CI_Controller {
         $data['header'] = 'user/includes/header';
 
         $data['content'] = 'user/object/dashboard/dashboard_view';
-
+        $data['js1'] = "";
+        $data['js2'] = "";
         $this->load->view('user/template_view', $data);
 
     }

@@ -21,7 +21,12 @@ class Userpanel extends CI_Controller {
 		}
 		else
 		{
-			 $this->load->view('front/template_view');
+                    $data['css1'] = "<link href='http://tools.bsmsite.com/template/global/css/signin1.css' rel='stylesheet'>";
+        $data['css2'] = "";
+        $data['css3'] = "";
+        $data['js1'] = "";
+        $data['js2'] = "";
+                    $this->load->view('front/login_view');
 		}
     }
     function proses() {
@@ -57,6 +62,11 @@ class Userpanel extends CI_Controller {
 			else
 			{
 				$data['error'] = '<span class=error>Username atau password salah !</span>';
+                                $data['css1'] = "<link href='http://tools.bsmsite.com/template/global/css/signin1.css' rel='stylesheet'>";
+        $data['css2'] = "";
+        $data['css3'] = "";
+        $data['js1'] = "";
+        $data['js2'] = "";
                                 $this->load->view('front/login_view', $data);
 			}
 		}
